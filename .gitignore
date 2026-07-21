@@ -38,3 +38,9 @@ node_modules/
 # Generated files when building with make container-build
 .config/
 .npm/
+
+# env files
+.env
+.env.*
+!.env.example
+!.env.sample
